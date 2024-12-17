@@ -120,6 +120,8 @@ The Data will be processed and then will be transferred to the Centralized syste
 - **Healthcare:** Online patient records, Health Informatics.
 - **Transport and logistics:** GPS, Google Maps.
 
+- ✨Memoization - `TECH FI`
+
 ## Are Distributed Systems and Microservices the Same?
 
 Distributed systems and microservices are related concepts but not the same. Let’s break down the differences:
@@ -153,6 +155,8 @@ Distributed systems are crucial in modern computing for their ability to scale, 
 - **Data Management:** Distributed systems offer efficient data storage solutions that handle large volumes of data, support complex queries, and ensure data consistency and integrity across distributed environments.
 - **Cost Efficiency:** By distributing workloads and optimizing resource utilization, distributed systems can achieve cost efficiencies in hardware, infrastructure, and operational expenses.
 - **Flexibility:** Distributed systems offer flexible deployment, allowing organizations to adapt to changing requirements, scale resources dynamically, and integrate new technologies seamlessly.<br><br>
+
+✨Memoization - `SPF GDCF`
 
 ## Challenges of Using Distributed Systems
 
