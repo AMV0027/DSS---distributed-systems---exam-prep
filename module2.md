@@ -181,8 +181,19 @@ In distributed systems, each node operates with its own clock, which can lead to
 
 Logical clocks are a concept used in distributed systems to order events without relying on physical time synchronization. They provide a way to establish a partial ordering of events based on causality rather than real-time clock values.
 
--0 By assigning logical timestamps to events, logical clocks allow distributed systems to maintain consistency and coherence across different nodes, despite varying clock speeds and network delays.
+- By assigning logical timestamps to events, logical clocks allow distributed systems to maintain consistency and coherence across different nodes, despite varying clock speeds and network delays.
 - This ensures that events can be correctly ordered and coordinated, facilitating fault tolerance and reliable operation in distributed computing environments.
+
+Here's the content converted into a table format:
+
+| **Criteria**      | **Physical Clocks**                                                                 | **Logical Clocks**                                                                                 |
+|--------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Nature of Time** | Relies on real-world time measurements; synchronized using protocols like NTP.   | Not tied to real-world time; uses logical counters or timestamps to order events based on causality. |
+| **Accuracy**       | Provides accurate timestamps but can be affected by clock drift and network delays. | Resilient to clock differences but does not ensure real-time accuracy.                            |
+| **Usage**          | Used for tasks requiring real-time synchronization, such as task scheduling or event logging. | Used for event ordering across nodes, ensuring causality and consistency without real-time constraints. |
+| **Dependency**     | Requires accurate timekeeping hardware and synchronization protocols.             | Dependent on event logic and causality rather than precise physical time readings.               | 
+
+
 ### 3. Mutual Exclusion Synchronization
 
 In the bustling symphony of distributed systems, one major challenge is managing shared resources. Imagine multiple processes competing for access to the resource simultaneously. To address this issue, mutual exclusion synchronization comes into play as an expert technique that reduces chaos and promotes resource harmony. This approach relies on creating a system where different processes take turns accessing shared resources.
